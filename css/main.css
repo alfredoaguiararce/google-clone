@@ -1,0 +1,66 @@
+/* Setting the default font size and font family for the entire page. */
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Setting the width and height of the header. */
+header
+{
+    width: 100%;
+    height: 60px;
+}
+
+/* Aligning the nav to the right. */
+header nav
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Removing the underline from the links and changing the cursor to a pointer when hovering over the
+links. */
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Setting the width and height of the nav-right-section. */
+header nav .nav-right-section
+{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Setting the margin-right and color of the links in the nav-right-section. */
+nav .nav-right-section a
+{
+    margin-right: 10px;
+    color: #000000;
+}
+
+nav .nav-right-section .menu-icon
+{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img
+{
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+}
