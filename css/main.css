@@ -88,3 +88,64 @@ main .main-logo img
     width: 272px;
     height: 92px;
 }
+
+/* Setting the width, margin, and margin-bottom of the main-input class. */
+main .main-input
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+/* Setting the width, border-radius, border, display, justify-content, and align-items of the
+main-input-container class. */
+main .main-input-container
+{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Setting the width, height, border, and outline of the input. */
+main .main-input input
+{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin: 0 9px;
+}
+
+/* Setting the box-shadow and border-color of the main-input-container when the mouse is hovering over
+it. */
+main .main-input-container:hover
+{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+/* Setting the background image of the search icon. */
+main .main-input .search-icon
+{
+    background-image: url( 'https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+/* Setting the background image of the microphone icon. */
+main .main-input .micro-icon
+{
+    background-image: url( 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
